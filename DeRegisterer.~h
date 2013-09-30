@@ -1,0 +1,7 @@
+#define ACTION_HELP	2002
+#define MESSAGETEXT	1003
+#define TITLEICON	9000
+#define ClassEnterDialog	9001
+#define CLASSLIST	1001
+#define LISTTITLE	1002
+#define ACTION_DOIT	2001

@@ -1,0 +1,598 @@
+
+ deregisterer
+
+ Start         Length     Name                   Class
+ 0001:00000000 000015DD4H TEXT32                 CODE 32-bit
+ 0001:00015DD4 000000004H SET1___CTOR_LIST__     CODE 32-bit
+ 0001:00015DD8 0000000C0H SET2___CTOR_LIST__     CODE 32-bit
+ 0001:00015E98 000000004H SET3___CTOR_LIST__     CODE 32-bit
+ 0001:00015E9C 000000004H SET1___DTOR_LIST__     CODE 32-bit
+ 0001:00015EA0 000000000H SET2___DTOR_LIST__     CODE 32-bit
+ 0001:00015EA0 000000004H SET3___DTOR_LIST__     CODE 32-bit
+ 0001:00015EA4 000000004H SET1___crtinit1__      CODE 32-bit
+ 0001:00015EA8 000000000H SET2___crtinit1__      CODE 32-bit
+ 0001:00015EA8 000000004H SET3___crtinit1__      CODE 32-bit
+ 0001:00015EAC 000000004H SET1___crtexit1__      CODE 32-bit
+ 0001:00015EB0 000000000H SET2___crtexit1__      CODE 32-bit
+ 0001:00015EB0 000000004H SET3___crtexit1__      CODE 32-bit
+ 0002:00000000 000006734H DATA32                 DATA 32-bit
+ 0002:00006734 000000008H BSS32                  BSS 32-bit
+ 0002:0000673C 000000010H c_common               BSS 32-bit
+ 0003:00000000 000100000H STACK                  STACK 32-bit
+
+ Origin   Group
+ 0000:0   FLAT
+ 0002:0   DGROUP
+
+  Address         Publics by Name
+
+ 0002:00006740       Application
+ 0000:00000000  Imp  atexit               (EMXLIBCM.703)
+ 0000:00000000  Imp  atof                 (EMXLIBCM.704)
+ 0000:00000000  Imp  atoi                 (EMXLIBCM.705)
+ 0000:00000000  Imp  atol                 (EMXLIBCM.706)
+ 0000:00000000  Imp  calloc               (EMXLIBCM.400)
+ 0001:00000A94       CenterWindow
+ 0001:00007998       compareByTitle
+ 0001:0000797C       compareColumn
+ 0002:00006744       DeRegDelegate
+ 0002:0000673C       DeRegDialog
+ 0002:00006748       DeRegHelp
+ 0000:00000000  Imp  DevCloseDC           (PMGPI.604)
+ 0000:00000000  Imp  DevEscape            (PMGPI.605)
+ 0000:00000000  Imp  DevOpenDC            (PMGPI.610)
+ 0000:00000000  Imp  DevPostDeviceModes   (PMGPI.609)
+ 0000:00000000  Imp  DevQueryCaps         (PMGPI.606)
+ 0000:00000000  Imp  DevQueryHardcopyCaps (PMGPI.608)
+ 0000:00000000  Imp  DosGetResource       (DOSCALLS.352)
+ 0000:00000000  Imp  exit                 (EMXLIBCM.712)
+ 0000:00000000  Imp  fclose               (EMXLIBCM.509)
+ 0001:00002F74       findObjectForWindow
+ 0000:00000000  Imp  fopen                (EMXLIBCM.520)
+ 0000:00000000  Imp  fprintf              (EMXLIBCM.521)
+ 0000:00000000  Imp  free                 (EMXLIBCM.401)
+ 0000:00000000  Imp  GpiCharString        (PMGPI.358)
+ 0000:00000000  Imp  GpiCharStringAt      (PMGPI.359)
+ 0000:00000000  Imp  GpiCreateLogFont     (PMGPI.368)
+ 0000:00000000  Imp  GpiCreatePS          (PMGPI.369)
+ 0000:00000000  Imp  GpiDestroyPS         (PMGPI.379)
+ 0000:00000000  Imp  GpiLine              (PMGPI.398)
+ 0000:00000000  Imp  GpiMove              (PMGPI.404)
+ 0000:00000000  Imp  GpiQueryCurrentPosition (PMGPI.441)
+ 0000:00000000  Imp  GpiQueryDevice       (PMGPI.444)
+ 0000:00000000  Imp  GpiQueryFontMetrics  (PMGPI.453)
+ 0000:00000000  Imp  GpiQueryPS           (PMGPI.471)
+ 0000:00000000  Imp  GpiQueryTextBox      (PMGPI.489)
+ 0000:00000000  Imp  GpiSetCharBox        (PMGPI.510)
+ 0000:00000000  Imp  GpiSetCharSet        (PMGPI.513)
+ 0001:00003094       loadInterfaceFile
+ 0001:0000007C       main
+ 0000:00000000  Imp  malloc               (EMXLIBCM.402)
+ 0000:00000000  Imp  memset               (EMXLIBCM.210)
+ 0000:00000000  Imp  objc_close_typed_stream (OBJC.85)
+ 0000:00000000  Imp  objc_get_class       (OBJC.24)
+ 0000:00000000  Imp  objc_lookup_class    (OBJC.23)
+ 0000:00000000  Imp  objc_msg_lookup      (OBJC.33)
+ 0000:00000000  Imp  objc_msg_lookup_super (OBJC.34)
+ 0000:00000000  Imp  objc_open_typed_stream (OBJC.84)
+ 0000:00000000  Imp  objc_read_object     (OBJC.76)
+ 0000:00000000  Imp  objc_read_type       (OBJC.80)
+ 0000:00000000  Imp  objc_read_types      (OBJC.83)
+ 0000:00000000  Imp  objc_write_object    (OBJC.61)
+ 0000:00000000  Imp  objc_write_object_reference (OBJC.59)
+ 0000:00000000  Imp  objc_write_type      (OBJC.78)
+ 0000:00000000  Imp  objc_write_types     (OBJC.82)
+ 0001:0000D434       offsetOfCommand
+ 0001:0000D350       offsetOfOutlet
+ 0000:00000000  Imp  PrfCloseProfile      (PMSHAPI.103)
+ 0000:00000000  Imp  PrfOpenProfile       (PMSHAPI.102)
+ 0000:00000000  Imp  PrfQueryProfileData  (PMSHAPI.117)
+ 0000:00000000  Imp  PrfQueryProfileSize  (PMSHAPI.101)
+ 0000:00000000  Imp  PrfQueryProfileString (PMSHAPI.115)
+ 0000:00000000  Imp  PrfWriteProfileData  (PMSHAPI.118)
+ 0000:00000000  Imp  PrfWriteProfileString (PMSHAPI.116)
+ 0000:00000000  Imp  realloc              (EMXLIBCM.403)
+ 0001:00002A3C       registerClasses
+ 0000:00000000  Imp  sel_get_any_uid      (OBJC.111)
+ 0000:00000000  Imp  sel_get_uid          (OBJC.112)
+ 0000:00000000  Imp  SplEnumQueue         (PMSPL.399)
+ 0000:00000000  Imp  sprintf              (EMXLIBCM.559)
+ 0000:00000000  Imp  strchr               (EMXLIBCM.213)
+ 0000:00000000  Imp  strcmp               (EMXLIBCM.214)
+ 0000:00000000  Imp  strcpy               (EMXLIBCM.215)
+ 0000:00000000  Imp  WinAssociateHelpInstance (HELPMGR.54)
+ 0000:00000000  Imp  WinCreateDlg         (PMWIN.922)
+ 0000:00000000  Imp  WinCreateHelpInstance (HELPMGR.51)
+ 0000:00000000  Imp  WinCreateMenu        (PMWIN.907)
+ 0000:00000000  Imp  WinCreateMsgQueue    (PMWIN.716)
+ 0000:00000000  Imp  WinCreateWindow      (PMWIN.909)
+ 0000:00000000  Imp  WinDefDlgProc        (PMWIN.910)
+ 0000:00000000  Imp  WinDefWindowProc     (PMWIN.911)
+ 0000:00000000  Imp  WinDeregisterObjectClass (PMWP.201)
+ 0000:00000000  Imp  WinDestroyHelpInstance (HELPMGR.52)
+ 0000:00000000  Imp  WinDestroyMsgQueue   (PMWIN.726)
+ 0000:00000000  Imp  WinDestroyWindow     (PMWIN.728)
+ 0000:00000000  Imp  WinDismissDlg        (PMWIN.729)
+ 0000:00000000  Imp  WinDispatchMsg       (PMWIN.912)
+ 0000:00000000  Imp  WinEnableWindow      (PMWIN.735)
+ 0000:00000000  Imp  WinEnableWindowUpdate (PMWIN.736)
+ 0000:00000000  Imp  WinEnumObjectClasses (PMWP.205)
+ 0000:00000000  Imp  WinFileDlg           (PMCTLS.4)
+ 0000:00000000  Imp  WinFindAtom          (PMWIN.744)
+ 0000:00000000  Imp  WinFreeFileDlgList   (PMCTLS.6)
+ 0000:00000000  Imp  WinGetMsg            (PMWIN.915)
+ 0000:00000000  Imp  WinGetPS             (PMWIN.757)
+ 0000:00000000  Imp  WinInitialize        (PMWIN.763)
+ 0000:00000000  Imp  WinInvalidateRect    (PMWIN.765)
+ 0000:00000000  Imp  WinIsWindowVisible   (PMWIN.775)
+ 0000:00000000  Imp  WinLoadDlg           (PMWIN.924)
+ 0000:00000000  Imp  WinMapDlgPoints      (PMWIN.787)
+ 0000:00000000  Imp  WinMessageBox        (PMWIN.789)
+ 0000:00000000  Imp  WinPopupMenu         (PMWIN.937)
+ 0000:00000000  Imp  WinPostMsg           (PMWIN.919)
+ 0000:00000000  Imp  WinProcessDlg        (PMWIN.796)
+ 0000:00000000  Imp  WinQueryClassName    (PMWIN.805)
+ 0000:00000000  Imp  WinQueryPointerPos   (PMWIN.823)
+ 0000:00000000  Imp  WinQueryPresParam    (PMWIN.939)
+ 0000:00000000  Imp  WinQuerySysPointer   (PMWIN.828)
+ 0000:00000000  Imp  WinQuerySystemAtomTable (PMWIN.830)
+ 0000:00000000  Imp  WinQuerySysValue     (PMWIN.829)
+ 0000:00000000  Imp  WinQueryWindow       (PMWIN.834)
+ 0000:00000000  Imp  WinQueryWindowPos    (PMWIN.837)
+ 0000:00000000  Imp  WinQueryWindowPtr    (PMWIN.839)
+ 0000:00000000  Imp  WinQueryWindowRect   (PMWIN.840)
+ 0000:00000000  Imp  WinQueryWindowText   (PMWIN.841)
+ 0000:00000000  Imp  WinQueryWindowTextLength (PMWIN.842)
+ 0000:00000000  Imp  WinQueryWindowULong  (PMWIN.843)
+ 0000:00000000  Imp  WinQueryWindowUShort (PMWIN.844)
+ 0000:00000000  Imp  WinRegisterClass     (PMWIN.926)
+ 0000:00000000  Imp  WinReleasePS         (PMWIN.848)
+ 0000:00000000  Imp  WinSendMsg           (PMWIN.920)
+ 0000:00000000  Imp  WinSetActiveWindow   (PMWIN.851)
+ 0000:00000000  Imp  WinSetFocus          (PMWIN.860)
+ 0000:00000000  Imp  WinSetOwner          (PMWIN.864)
+ 0000:00000000  Imp  WinSetParent         (PMWIN.865)
+ 0000:00000000  Imp  WinSetPresParam      (PMWIN.938)
+ 0000:00000000  Imp  WinSetWindowPos      (PMWIN.875)
+ 0000:00000000  Imp  WinSetWindowPtr      (PMWIN.876)
+ 0000:00000000  Imp  WinSetWindowText     (PMWIN.877)
+ 0000:00000000  Imp  WinSetWindowULong    (PMWIN.878)
+ 0000:00000000  Imp  WinSetWindowUShort   (PMWIN.879)
+ 0000:00000000  Imp  WinShowWindow        (PMWIN.883)
+ 0000:00000000  Imp  WinTerminate         (PMWIN.888)
+ 0000:00000000  Imp  WinWindowFromID      (PMWIN.899)
+ 0002:00000000       _data
+ 0000:00000000  Imp  _emx_init            (EMX.1)
+ 0000:00000000  Imp  _emx_syscall         (EMX.2)
+ 0000:00000000  Imp  _entry1              (EMXLIBCM.815)
+ 0000:00000000  Imp  _entry2              (EMXLIBCM.816)
+ 0000:00000000  Imp  _execname            (EMXLIBCM.839)
+ 0001:00002630       _GLOBAL_$I$actionwindow.m.58
+ 0001:00004D60       _GLOBAL_$I$autocheckbox.m
+ 0001:00004EF0       _GLOBAL_$I$autoradiobutton.m
+ 0001:00005088       _GLOBAL_$I$autotristatebutton.m
+ 0001:000055C4       _GLOBAL_$I$button.m.62
+ 0001:00000B00       _GLOBAL_$I$CenterWindow
+ 0001:000058F8       _GLOBAL_$I$checkbox.m
+ 0001:00005B7C       _GLOBAL_$I$combobox.m.40
+ 0001:0000605C       _GLOBAL_$I$commandlist.m
+ 0001:000079C8       _GLOBAL_$I$compareColumn.166
+ 0001:000082AC       _GLOBAL_$I$delegatewindow.m
+ 0001:000089D8       _GLOBAL_$I$entryfield.m.76
+ 0001:00014BB8       _GLOBAL_$I$factorywindow.m
+ 0001:00008F88       _GLOBAL_$I$filedlg.m
+ 0001:00009214       _GLOBAL_$I$frame.m
+ 0001:00009880       _GLOBAL_$I$help.m.66
+ 0001:000004D4       _GLOBAL_$I$helpwindow.m
+ 0001:00009C74       _GLOBAL_$I$IBAction.m
+ 0001:00009DEC       _GLOBAL_$I$IBObject.m
+ 0001:0000A154       _GLOBAL_$I$IBOutlet.m
+ 0001:00015154       _GLOBAL_$I$KeyedList.m
+ 0001:0000DEB4       _GLOBAL_$I$listbox.m.54
+ 0001:00000294       _GLOBAL_$I$main
+ 0001:0000E2B0       _GLOBAL_$I$mainwindow.m
+ 0001:0000EAD4       _GLOBAL_$I$menu.m.50
+ 0001:0000EF4C       _GLOBAL_$I$menuitem.m
+ 0001:0000F3B8       _GLOBAL_$I$mle.m.57
+ 0001:0000FD04       _GLOBAL_$I$notebook.m.80
+ 0001:0000D504       _GLOBAL_$I$offsetOfOutlet.138
+ 0001:00010A5C       _GLOBAL_$I$presentationspace.m.80
+ 0001:0001170C       _GLOBAL_$I$printer.m.64
+ 0001:00011DDC       _GLOBAL_$I$profile.m
+ 0001:00012098       _GLOBAL_$I$pushbutton.m
+ 0001:00012224       _GLOBAL_$I$radiobutton.m
+ 0001:00003194       _GLOBAL_$I$registerClasses
+ 0001:0001256C       _GLOBAL_$I$scrollbar.m.48
+ 0001:000157C0       _GLOBAL_$I$SimpleList.m
+ 0001:000128B4       _GLOBAL_$I$slider.m.36
+ 0001:00012B68       _GLOBAL_$I$spinbutton.m.36
+ 0001:00012E24       _GLOBAL_$I$static.m.36
+ 0001:00000E0C       _GLOBAL_$I$stdapp.m
+ 0001:00013EE0       _GLOBAL_$I$stdwindow.m.102
+ 0001:00015CCC       _GLOBAL_$I$String.m
+ 0001:0001440C       _GLOBAL_$I$titlebar.m
+ 0001:0001456C       _GLOBAL_$I$tristatebutton.m
+ 0001:000147CC       _GLOBAL_$I$valueset.m
+ 0001:00001D88       _GLOBAL_$I$__dialogFunction.68
+ 0001:00004858       _GLOBAL_$I$__windowFunction.124
+ 0002:00000018       _heap_base
+ 0002:00000020       _heap_brk
+ 0002:0000001C       _heap_end
+ 0001:00000018       _init
+ 0000:00000000  Imp  _makepath            (EMXLIBCM.835)
+ 0000:00000000  Imp  _splitpath           (EMXLIBCM.792)
+ 0000:00000000  Imp  _startup             (EMXLIBCM.793)
+ 0000:00000000  Imp  _strdup              (EMXLIBCM.217)
+ 0000:00000000  Imp  _streamv             (EMXLIBCM.595)
+ 0000:00000000  Imp  _stricmp             (EMXLIBCM.219)
+ 0001:00000000       _text
+ 0001:00015EAC       __crtexit1__
+ 0001:00015EA4       __crtinit1__
+ 0001:00000CB8       __ctordtorInit
+ 0000:00000000  Imp  __ctordtorInit1      (EMXLIBCM.843)
+ 0001:00000CDC       __ctordtorTerm
+ 0000:00000000  Imp  __ctordtorTerm1      (EMXLIBCM.844)
+ 0001:00015DD4       __CTOR_LIST__
+ 0001:00001D00       __dialogFunction
+ 0001:00015E9C       __DTOR_LIST__
+ 0001:00000CA4       __main
+ 0001:00015CE4       __objc_category_name_NXConstantString_String
+ 0001:00002658       __objc_class_name_ActionWindow
+ 0001:00004D74       __objc_class_name_AutoCheckBox
+ 0001:00004F04       __objc_class_name_AutoRadioButton
+ 0001:0000509C       __objc_class_name_AutoTriStateButton
+ 0001:000055E4       __objc_class_name_Button
+ 0001:0000590C       __objc_class_name_CheckBox
+ 0001:00005B9C       __objc_class_name_ComboBox
+ 0001:00006070       __objc_class_name_CommandList
+ 0001:000079E8       __objc_class_name_Container
+ 0001:000082C0       __objc_class_name_DelegateWindow
+ 0001:00000B14       __objc_class_name_DeRegDialogDelegate
+ 0001:000089F8       __objc_class_name_EntryField
+ 0001:00014BCC       __objc_class_name_FactoryWindow
+ 0001:00008F9C       __objc_class_name_FileDlg
+ 0001:00009228       __objc_class_name_Frame
+ 0001:000098A4       __objc_class_name_Help
+ 0001:000004E8       __objc_class_name_HelpWindow
+ 0001:00009C88       __objc_class_name_IBAction
+ 0001:00009E00       __objc_class_name_IBObject
+ 0001:0000A168       __objc_class_name_IBOutlet
+ 0001:0000D534       __objc_class_name_InterfaceFile
+ 0001:00015168       __objc_class_name_KeyedList
+ 0001:0000DED4       __objc_class_name_ListBox
+ 0001:0000E2C4       __objc_class_name_MainWindow
+ 0001:0000EAF8       __objc_class_name_Menu
+ 0001:0000EF60       __objc_class_name_MenuItem
+ 0001:0000F3D8       __objc_class_name_MultiLineEntryField
+ 0001:0000FD24       __objc_class_name_NoteBook
+ 0000:00000000  Imp  __objc_class_name_NXConstantString (OBJC.134)
+ 0000:00000000  Imp  __objc_class_name_Object (OBJC.136)
+ 0001:00010A7C       __objc_class_name_PresentationSpace
+ 0001:0001172C       __objc_class_name_Printer
+ 0001:00011DF0       __objc_class_name_Profile
+ 0000:00000000  Imp  __objc_class_name_Protocol (OBJC.138)
+ 0001:000120AC       __objc_class_name_PushButton
+ 0001:00012238       __objc_class_name_RadioButton
+ 0001:0001258C       __objc_class_name_ScrollBar
+ 0001:000157D4       __objc_class_name_SimpleList
+ 0001:000128D4       __objc_class_name_Slider
+ 0001:00012B88       __objc_class_name_SpinButton
+ 0001:00012E44       __objc_class_name_Static
+ 0001:00000E20       __objc_class_name_StdApp
+ 0001:00001DA8       __objc_class_name_StdDialog
+ 0001:00013F00       __objc_class_name_StdWindow
+ 0001:00015CE4       __objc_class_name_String
+ 0001:00014420       __objc_class_name_TitleBar
+ 0001:00014580       __objc_class_name_TriStateButton
+ 0001:000147E0       __objc_class_name_ValueSet
+ 0001:000048B8       __objc_class_name_Window
+ 0000:00000000  Imp  __objc_exec_class    (OBJC.47)
+ 0001:00000CD8       __POST$__ctordtorInit
+ 0001:00000CFC       __POST$__ctordtorTerm
+ 0001:00000CB6       __POST$__main
+ 0001:0000000C       __syscall
+ 0001:000047FC       __windowFunction
+
+  Address         Publics by Value
+
+ 0000:00000000  Imp  WinCreateMsgQueue    (PMWIN.716)
+ 0000:00000000  Imp  WinQueryWindowULong  (PMWIN.843)
+ 0000:00000000  Imp  DevQueryHardcopyCaps (PMGPI.608)
+ 0000:00000000  Imp  WinEnableWindowUpdate (PMWIN.736)
+ 0000:00000000  Imp  WinCreateHelpInstance (HELPMGR.51)
+ 0000:00000000  Imp  PrfQueryProfileString (PMSHAPI.115)
+ 0000:00000000  Imp  PrfWriteProfileString (PMSHAPI.116)
+ 0000:00000000  Imp  WinQueryWindowUShort (PMWIN.844)
+ 0000:00000000  Imp  _splitpath           (EMXLIBCM.792)
+ 0000:00000000  Imp  GpiQueryFontMetrics  (PMGPI.453)
+ 0000:00000000  Imp  objc_write_types     (OBJC.82)
+ 0000:00000000  Imp  objc_msg_lookup_super (OBJC.34)
+ 0000:00000000  Imp  WinRegisterClass     (PMWIN.926)
+ 0000:00000000  Imp  WinPostMsg           (PMWIN.919)
+ 0000:00000000  Imp  __objc_class_name_Protocol (OBJC.138)
+ 0000:00000000  Imp  GpiQueryPS           (PMGPI.471)
+ 0000:00000000  Imp  WinEnumObjectClasses (PMWP.205)
+ 0000:00000000  Imp  objc_lookup_class    (OBJC.23)
+ 0000:00000000  Imp  PrfQueryProfileSize  (PMSHAPI.101)
+ 0000:00000000  Imp  GpiCreatePS          (PMGPI.369)
+ 0000:00000000  Imp  WinDestroyHelpInstance (HELPMGR.52)
+ 0000:00000000  Imp  WinCreateDlg         (PMWIN.922)
+ 0000:00000000  Imp  WinFindAtom          (PMWIN.744)
+ 0000:00000000  Imp  sel_get_uid          (OBJC.112)
+ 0000:00000000  Imp  DevCloseDC           (PMGPI.604)
+ 0000:00000000  Imp  WinSetFocus          (PMWIN.860)
+ 0000:00000000  Imp  WinReleasePS         (PMWIN.848)
+ 0000:00000000  Imp  objc_open_typed_stream (OBJC.84)
+ 0000:00000000  Imp  PrfWriteProfileData  (PMSHAPI.118)
+ 0000:00000000  Imp  WinSetOwner          (PMWIN.864)
+ 0000:00000000  Imp  PrfQueryProfileData  (PMSHAPI.117)
+ 0000:00000000  Imp  WinSendMsg           (PMWIN.920)
+ 0000:00000000  Imp  WinFileDlg           (PMCTLS.4)
+ 0000:00000000  Imp  WinTerminate         (PMWIN.888)
+ 0000:00000000  Imp  DevQueryCaps         (PMGPI.606)
+ 0000:00000000  Imp  objc_write_type      (OBJC.78)
+ 0000:00000000  Imp  WinSetParent         (PMWIN.865)
+ 0000:00000000  Imp  WinSetWindowText     (PMWIN.877)
+ 0000:00000000  Imp  WinLoadDlg           (PMWIN.924)
+ 0000:00000000  Imp  WinCreateMenu        (PMWIN.907)
+ 0000:00000000  Imp  GpiSetCharBox        (PMGPI.510)
+ 0000:00000000  Imp  _emx_init            (EMX.1)
+ 0000:00000000  Imp  WinPopupMenu         (PMWIN.937)
+ 0000:00000000  Imp  __objc_exec_class    (OBJC.47)
+ 0000:00000000  Imp  SplEnumQueue         (PMSPL.399)
+ 0000:00000000  Imp  _emx_syscall         (EMX.2)
+ 0000:00000000  Imp  GpiDestroyPS         (PMGPI.379)
+ 0000:00000000  Imp  WinProcessDlg        (PMWIN.796)
+ 0000:00000000  Imp  objc_msg_lookup      (OBJC.33)
+ 0000:00000000  Imp  WinDefDlgProc        (PMWIN.910)
+ 0000:00000000  Imp  GpiCharString        (PMGPI.358)
+ 0000:00000000  Imp  WinGetMsg            (PMWIN.915)
+ 0000:00000000  Imp  _startup             (EMXLIBCM.793)
+ 0000:00000000  Imp  WinMessageBox        (PMWIN.789)
+ 0000:00000000  Imp  GpiSetCharSet        (PMGPI.513)
+ 0000:00000000  Imp  WinDismissDlg        (PMWIN.729)
+ 0000:00000000  Imp  DevOpenDC            (PMGPI.610)
+ 0000:00000000  Imp  WinInitialize        (PMWIN.763)
+ 0000:00000000  Imp  WinShowWindow        (PMWIN.883)
+ 0000:00000000  Imp  _execname            (EMXLIBCM.839)
+ 0000:00000000  Imp  DevEscape            (PMGPI.605)
+ 0000:00000000  Imp  PrfOpenProfile       (PMSHAPI.102)
+ 0000:00000000  Imp  _stricmp             (EMXLIBCM.219)
+ 0000:00000000  Imp  objc_get_class       (OBJC.24)
+ 0000:00000000  Imp  _streamv             (EMXLIBCM.595)
+ 0000:00000000  Imp  _makepath            (EMXLIBCM.835)
+ 0000:00000000  Imp  WinDispatchMsg       (PMWIN.912)
+ 0000:00000000  Imp  GpiQueryDevice       (PMGPI.444)
+ 0000:00000000  Imp  _strdup              (EMXLIBCM.217)
+ 0000:00000000  Imp  objc_read_type       (OBJC.80)
+ 0000:00000000  Imp  WinDestroyWindow     (PMWIN.728)
+ 0000:00000000  Imp  WinGetPS             (PMWIN.757)
+ 0000:00000000  Imp  strcpy               (EMXLIBCM.215)
+ 0000:00000000  Imp  WinQueryWindowText   (PMWIN.841)
+ 0000:00000000  Imp  WinQuerySystemAtomTable (PMWIN.830)
+ 0000:00000000  Imp  WinSetWindowPtr      (PMWIN.876)
+ 0000:00000000  Imp  WinQueryClassName    (PMWIN.805)
+ 0000:00000000  Imp  WinQuerySysValue     (PMWIN.829)
+ 0000:00000000  Imp  WinDeregisterObjectClass (PMWP.201)
+ 0000:00000000  Imp  WinAssociateHelpInstance (HELPMGR.54)
+ 0000:00000000  Imp  free                 (EMXLIBCM.401)
+ 0000:00000000  Imp  WinQueryWindow       (PMWIN.834)
+ 0000:00000000  Imp  DosGetResource       (DOSCALLS.352)
+ 0000:00000000  Imp  WinDestroyMsgQueue   (PMWIN.726)
+ 0000:00000000  Imp  objc_close_typed_stream (OBJC.85)
+ 0000:00000000  Imp  exit                 (EMXLIBCM.712)
+ 0000:00000000  Imp  atof                 (EMXLIBCM.704)
+ 0000:00000000  Imp  GpiQueryCurrentPosition (PMGPI.441)
+ 0000:00000000  Imp  atoi                 (EMXLIBCM.705)
+ 0000:00000000  Imp  atol                 (EMXLIBCM.706)
+ 0000:00000000  Imp  WinDefWindowProc     (PMWIN.911)
+ 0000:00000000  Imp  __objc_class_name_NXConstantString (OBJC.134)
+ 0000:00000000  Imp  __objc_class_name_Object (OBJC.136)
+ 0000:00000000  Imp  WinQuerySysPointer   (PMWIN.828)
+ 0000:00000000  Imp  WinQueryWindowRect   (PMWIN.840)
+ 0000:00000000  Imp  WinSetWindowUShort   (PMWIN.879)
+ 0000:00000000  Imp  objc_write_object_reference (OBJC.59)
+ 0000:00000000  Imp  WinQueryWindowTextLength (PMWIN.842)
+ 0000:00000000  Imp  WinSetWindowPos      (PMWIN.875)
+ 0000:00000000  Imp  WinQueryPointerPos   (PMWIN.823)
+ 0000:00000000  Imp  sprintf              (EMXLIBCM.559)
+ 0000:00000000  Imp  fopen                (EMXLIBCM.520)
+ 0000:00000000  Imp  __ctordtorInit1      (EMXLIBCM.843)
+ 0000:00000000  Imp  objc_read_types      (OBJC.83)
+ 0000:00000000  Imp  DevPostDeviceModes   (PMGPI.609)
+ 0000:00000000  Imp  WinQueryPresParam    (PMWIN.939)
+ 0000:00000000  Imp  fprintf              (EMXLIBCM.521)
+ 0000:00000000  Imp  WinIsWindowVisible   (PMWIN.775)
+ 0000:00000000  Imp  WinSetActiveWindow   (PMWIN.851)
+ 0000:00000000  Imp  __ctordtorTerm1      (EMXLIBCM.844)
+ 0000:00000000  Imp  GpiMove              (PMGPI.404)
+ 0000:00000000  Imp  GpiLine              (PMGPI.398)
+ 0000:00000000  Imp  realloc              (EMXLIBCM.403)
+ 0000:00000000  Imp  WinFreeFileDlgList   (PMCTLS.6)
+ 0000:00000000  Imp  GpiQueryTextBox      (PMGPI.489)
+ 0000:00000000  Imp  WinQueryWindowPtr    (PMWIN.839)
+ 0000:00000000  Imp  calloc               (EMXLIBCM.400)
+ 0000:00000000  Imp  WinQueryWindowPos    (PMWIN.837)
+ 0000:00000000  Imp  WinSetWindowULong    (PMWIN.878)
+ 0000:00000000  Imp  malloc               (EMXLIBCM.402)
+ 0000:00000000  Imp  _entry2              (EMXLIBCM.816)
+ 0000:00000000  Imp  fclose               (EMXLIBCM.509)
+ 0000:00000000  Imp  WinWindowFromID      (PMWIN.899)
+ 0000:00000000  Imp  atexit               (EMXLIBCM.703)
+ 0000:00000000  Imp  memset               (EMXLIBCM.210)
+ 0000:00000000  Imp  WinEnableWindow      (PMWIN.735)
+ 0000:00000000  Imp  GpiCharStringAt      (PMGPI.359)
+ 0000:00000000  Imp  WinCreateWindow      (PMWIN.909)
+ 0000:00000000  Imp  GpiCreateLogFont     (PMGPI.368)
+ 0000:00000000  Imp  objc_read_object     (OBJC.76)
+ 0000:00000000  Imp  PrfCloseProfile      (PMSHAPI.103)
+ 0000:00000000  Imp  WinMapDlgPoints      (PMWIN.787)
+ 0000:00000000  Imp  strchr               (EMXLIBCM.213)
+ 0000:00000000  Imp  strcmp               (EMXLIBCM.214)
+ 0000:00000000  Imp  _entry1              (EMXLIBCM.815)
+ 0000:00000000  Imp  WinInvalidateRect    (PMWIN.765)
+ 0000:00000000  Imp  WinSetPresParam      (PMWIN.938)
+ 0000:00000000  Imp  sel_get_any_uid      (OBJC.111)
+ 0000:00000000  Imp  objc_write_object    (OBJC.61)
+ 0001:00000000       _text
+ 0001:0000000C       __syscall
+ 0001:00000018       _init
+ 0001:0000007C       main
+ 0001:00000294       _GLOBAL_$I$main
+ 0001:000004D4       _GLOBAL_$I$helpwindow.m
+ 0001:000004E8       __objc_class_name_HelpWindow
+ 0001:00000A94       CenterWindow
+ 0001:00000B00       _GLOBAL_$I$CenterWindow
+ 0001:00000B14       __objc_class_name_DeRegDialogDelegate
+ 0001:00000CA4       __main
+ 0001:00000CB6       __POST$__main
+ 0001:00000CB8       __ctordtorInit
+ 0001:00000CD8       __POST$__ctordtorInit
+ 0001:00000CDC       __ctordtorTerm
+ 0001:00000CFC       __POST$__ctordtorTerm
+ 0001:00000E0C       _GLOBAL_$I$stdapp.m
+ 0001:00000E20       __objc_class_name_StdApp
+ 0001:00001D00       __dialogFunction
+ 0001:00001D88       _GLOBAL_$I$__dialogFunction.68
+ 0001:00001DA8       __objc_class_name_StdDialog
+ 0001:00002630       _GLOBAL_$I$actionwindow.m.58
+ 0001:00002658       __objc_class_name_ActionWindow
+ 0001:00002A3C       registerClasses
+ 0001:00002F74       findObjectForWindow
+ 0001:00003094       loadInterfaceFile
+ 0001:00003194       _GLOBAL_$I$registerClasses
+ 0001:000047FC       __windowFunction
+ 0001:00004858       _GLOBAL_$I$__windowFunction.124
+ 0001:000048B8       __objc_class_name_Window
+ 0001:00004D60       _GLOBAL_$I$autocheckbox.m
+ 0001:00004D74       __objc_class_name_AutoCheckBox
+ 0001:00004EF0       _GLOBAL_$I$autoradiobutton.m
+ 0001:00004F04       __objc_class_name_AutoRadioButton
+ 0001:00005088       _GLOBAL_$I$autotristatebutton.m
+ 0001:0000509C       __objc_class_name_AutoTriStateButton
+ 0001:000055C4       _GLOBAL_$I$button.m.62
+ 0001:000055E4       __objc_class_name_Button
+ 0001:000058F8       _GLOBAL_$I$checkbox.m
+ 0001:0000590C       __objc_class_name_CheckBox
+ 0001:00005B7C       _GLOBAL_$I$combobox.m.40
+ 0001:00005B9C       __objc_class_name_ComboBox
+ 0001:0000605C       _GLOBAL_$I$commandlist.m
+ 0001:00006070       __objc_class_name_CommandList
+ 0001:0000797C       compareColumn
+ 0001:00007998       compareByTitle
+ 0001:000079C8       _GLOBAL_$I$compareColumn.166
+ 0001:000079E8       __objc_class_name_Container
+ 0001:000082AC       _GLOBAL_$I$delegatewindow.m
+ 0001:000082C0       __objc_class_name_DelegateWindow
+ 0001:000089D8       _GLOBAL_$I$entryfield.m.76
+ 0001:000089F8       __objc_class_name_EntryField
+ 0001:00008F88       _GLOBAL_$I$filedlg.m
+ 0001:00008F9C       __objc_class_name_FileDlg
+ 0001:00009214       _GLOBAL_$I$frame.m
+ 0001:00009228       __objc_class_name_Frame
+ 0001:00009880       _GLOBAL_$I$help.m.66
+ 0001:000098A4       __objc_class_name_Help
+ 0001:00009C74       _GLOBAL_$I$IBAction.m
+ 0001:00009C88       __objc_class_name_IBAction
+ 0001:00009DEC       _GLOBAL_$I$IBObject.m
+ 0001:00009E00       __objc_class_name_IBObject
+ 0001:0000A154       _GLOBAL_$I$IBOutlet.m
+ 0001:0000A168       __objc_class_name_IBOutlet
+ 0001:0000D350       offsetOfOutlet
+ 0001:0000D434       offsetOfCommand
+ 0001:0000D504       _GLOBAL_$I$offsetOfOutlet.138
+ 0001:0000D534       __objc_class_name_InterfaceFile
+ 0001:0000DEB4       _GLOBAL_$I$listbox.m.54
+ 0001:0000DED4       __objc_class_name_ListBox
+ 0001:0000E2B0       _GLOBAL_$I$mainwindow.m
+ 0001:0000E2C4       __objc_class_name_MainWindow
+ 0001:0000EAD4       _GLOBAL_$I$menu.m.50
+ 0001:0000EAF8       __objc_class_name_Menu
+ 0001:0000EF4C       _GLOBAL_$I$menuitem.m
+ 0001:0000EF60       __objc_class_name_MenuItem
+ 0001:0000F3B8       _GLOBAL_$I$mle.m.57
+ 0001:0000F3D8       __objc_class_name_MultiLineEntryField
+ 0001:0000FD04       _GLOBAL_$I$notebook.m.80
+ 0001:0000FD24       __objc_class_name_NoteBook
+ 0001:00010A5C       _GLOBAL_$I$presentationspace.m.80
+ 0001:00010A7C       __objc_class_name_PresentationSpace
+ 0001:0001170C       _GLOBAL_$I$printer.m.64
+ 0001:0001172C       __objc_class_name_Printer
+ 0001:00011DDC       _GLOBAL_$I$profile.m
+ 0001:00011DF0       __objc_class_name_Profile
+ 0001:00012098       _GLOBAL_$I$pushbutton.m
+ 0001:000120AC       __objc_class_name_PushButton
+ 0001:00012224       _GLOBAL_$I$radiobutton.m
+ 0001:00012238       __objc_class_name_RadioButton
+ 0001:0001256C       _GLOBAL_$I$scrollbar.m.48
+ 0001:0001258C       __objc_class_name_ScrollBar
+ 0001:000128B4       _GLOBAL_$I$slider.m.36
+ 0001:000128D4       __objc_class_name_Slider
+ 0001:00012B68       _GLOBAL_$I$spinbutton.m.36
+ 0001:00012B88       __objc_class_name_SpinButton
+ 0001:00012E24       _GLOBAL_$I$static.m.36
+ 0001:00012E44       __objc_class_name_Static
+ 0001:00013EE0       _GLOBAL_$I$stdwindow.m.102
+ 0001:00013F00       __objc_class_name_StdWindow
+ 0001:0001440C       _GLOBAL_$I$titlebar.m
+ 0001:00014420       __objc_class_name_TitleBar
+ 0001:0001456C       _GLOBAL_$I$tristatebutton.m
+ 0001:00014580       __objc_class_name_TriStateButton
+ 0001:000147CC       _GLOBAL_$I$valueset.m
+ 0001:000147E0       __objc_class_name_ValueSet
+ 0001:00014BB8       _GLOBAL_$I$factorywindow.m
+ 0001:00014BCC       __objc_class_name_FactoryWindow
+ 0001:00015154       _GLOBAL_$I$KeyedList.m
+ 0001:00015168       __objc_class_name_KeyedList
+ 0001:000157C0       _GLOBAL_$I$SimpleList.m
+ 0001:000157D4       __objc_class_name_SimpleList
+ 0001:00015CCC       _GLOBAL_$I$String.m
+ 0001:00015CE4       __objc_class_name_String
+ 0001:00015CE4       __objc_category_name_NXConstantString_String
+ 0001:00015DD4       __CTOR_LIST__
+ 0001:00015E9C       __DTOR_LIST__
+ 0001:00015EA4       __crtinit1__
+ 0001:00015EAC       __crtexit1__
+ 0002:00000000       _data
+ 0002:00000018       _heap_base
+ 0002:0000001C       _heap_end
+ 0002:00000020       _heap_brk
+ 0002:0000673C       DeRegDialog
+ 0002:00006740       Application
+ 0002:00006744       DeRegDelegate
+ 0002:00006748       DeRegHelp
+
+Program entry point at 0001:00000000
+
+Line numbers for deregisterer.obj(deregisterer.obj) segment TEXT32
+
+	 Source       Src File           Seg:Offset
+	Line Num       Index                 (0X)
+	---------     --------          -------------
+
+	Record Number of Start of Source: 0
+	Number of Primary Source Records: 0
+	Source & Listing Files:
+	File 1)deregisterer.obj
+
+Line numbers for helpwindow.obj(helpwindow.obj) segment TEXT32
+
+	 Source       Src File           Seg:Offset
+	Line Num       Index                 (0X)
+	---------     --------          -------------
+
+	Record Number of Start of Source: 0
+	Number of Primary Source Records: 0
+	Source & Listing Files:
+	File 1)helpwindow.obj
+
+Line numbers for regdialog.obj(regdialog.obj) segment TEXT32
+
+	 Source       Src File           Seg:Offset
+	Line Num       Index                 (0X)
+	---------     --------          -------------
+
+	Record Number of Start of Source: 0
+	Number of Primary Source Records: 0
+	Source & Listing Files:
+	File 1)regdialog.obj

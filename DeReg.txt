@@ -1,0 +1,22 @@
+DeRegisterer v. 0.4- a program to deregister WPS Classes
+
+DeRegisterer is the result of the installation of the BonusPak from OS/2 Warp
+3.0 on my computer.  I was a bit annoyed that it is so difficult to remove the
+WPS classes from the system, so I wrote this program.  It's very simple, it
+uses the WinDeRegisterObjectClass() API to do its work.  It doesn't destroy
+any Objects derived from the deleted class or delete the corresponding dll, so
+you have to do it on your own.  It has been tested at OS/2 2.1 and OS/2 3.0.
+There are no known errors.
+
+WARRANTIES:  NONE.
+
+The program is freeware.
+
+Bug reports and suggestions are welcome.  You can reach me by e-mail:
+
+jensajce@w271zrz.zrz.tu-berlin.de
+
+or surface mail:
+
+Jens Glathe Keithstr.36 Apt.  604 10787 Berlin Germany	.
+
