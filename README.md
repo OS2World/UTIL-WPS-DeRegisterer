@@ -1,4 +1,4 @@
-UTIL-WPS-DeRegistered
+UTIL-WPS-DeRegisterer
 =====================
 
 DeRegisterer is a program to deregister WPS Classes.
